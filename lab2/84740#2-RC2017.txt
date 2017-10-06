@@ -1,0 +1,22 @@
+traceroute to www.wustl.edu (128.252.114.30), 30 hops max, 60 byte packets
+ 1  10.0.2.2 (10.0.2.2)  0.217 ms  0.076 ms  0.140 ms
+ 2  194.210.223.254 (194.210.223.254)  8.929 ms  9.209 ms  12.000 ms
+ 3  core0.tagus.ist.utl.pt (193.136.166.60)  11.927 ms  12.972 ms  12.937 ms
+ 4  irb-166.gwcore1.tecnico.ulisboa.pt (193.136.134.196)  27.917 ms  27.884 ms  27.677 ms
+ 5  e0.gatekeeper2.tecnico.ulisboa.pt (193.136.134.158)  12.558 ms  12.535 ms  12.410 ms
+ 6  194.117.12.129 (194.117.12.129)  12.339 ms  2.884 ms  2.864 ms
+ 7  194.117.12.249 (194.117.12.249)  2.932 ms  18.097 ms  5.534 ms
+ 8  Router13.Lisboa.fccn.pt (193.136.1.93)  24.214 ms  22.858 ms  27.588 ms
+ 9  ROUTER1.10GE.CR2.Lisboa.fccn.pt (193.137.0.17)  29.592 ms ROUTER1.10GE.CR1.Lisboa.fccn.pt (193.137.0.1)  31.776 ms  35.172 ms
+10  fccn-ias-geant-gw.mx2.lis.pt.geant.net (83.97.88.209)  28.616 ms *  31.242 ms
+11  * ae0.mx1.mad.es.geant.net (62.40.98.107)  64.161 ms  45.499 ms
+12  ae7.mx1.gen.ch.geant.net (62.40.98.67)  43.289 ms  44.984 ms  45.806 ms
+13  google.mx1.fra.de.geant.net (62.40.125.201)  47.354 ms  47.275 ms  45.641 ms
+14  xe-8-0-1.edge5.Frankfurt1.Level3.net (212.162.4.9)  43.026 ms  43.021 ms  45.347 ms
+15  * * *
+16  * * *
+17  xe-0-0-5-bih-1017-wu-vrt-0.nts.wustl.edu (128.252.1.253)  152.270 ms  154.114 ms  156.576 ms
+18  eth5-23-eps-core.nts.wustl.edu (128.252.1.63)  150.215 ms  154.584 ms  155.194 ms
+19  po50-wcdc-core-126-0.nts.wustl.edu (128.252.254.137)  169.298 ms po52-wcdc-core-127-0.nts.wustl.edu (128.252.254.141)  154.090 ms po50-wcdc-core-126-0.nts.wustl.edu (128.252.254.137)  152.438 ms
+20  eth3-5-wcdc-agg-127-0.nts.wustl.edu (128.252.88.13)  148.403 ms eth4-5-wcdc-agg-126-0.nts.wustl.edu (128.252.100.225)  152.454 ms  152.890 ms
+21  neuro.wustl.edu (128.252.114.30)  155.271 ms  154.350 ms  155.575 ms

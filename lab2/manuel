@@ -1,0 +1,2 @@
+As rotas saem da VM, e vão em direção ao router do IST no tagus (core0). As rotas saem do técnico para os routers do ISP que fornece a ligação de internet ao IST, a FCCN. Da FCCN, sai para a Europa onde vai andar por Internet Exchange Points, nomeadamente em Madrid (Espanha) depois Genebra (Suíça) e por fim Frankfurt (Alemanha).Apos Frankfurt, o ping aumentou bastante pelo que as rotas chegaram ao continente destino, onde acabam por entrar nos routers da umass, ate que chegam ao destino final.
+
