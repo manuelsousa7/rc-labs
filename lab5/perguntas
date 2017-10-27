@@ -1,0 +1,15 @@
+Perguntas da parte de UDP
+
+1 - 5 fields
+2 - 2 bytes, cabecalho todo sao 8 bytes
+3 - Tamanho do segmento todo (enviar segmenento sem ser hello, tipo hello hi, para ver se aumentou) 
+4 - 2 bits, e se meter tudo a 1, e isso e igual ao numero de bits, 2^16 - 1 (tamanho minimo, e o tamanho do cabecalho) (UDP data temos de tirar o cabecalo ou seja isto -> 2^16 - 1 menos 8 (que e o cabecalho))
+5- quase ou igual ao 4 . Resp 2^16 - 1
+
+Perguntas parte de TCP
+
+1. 0 (nao ouvi) nao temos info ?? ............   uma flag, se tiver a 1 (flag 1 bit), se tiver a 1 sabemos que e um SYN
+2. Sequence number diz, o primeiro bit deste pacote, qual a ordem deste bit. ????????????????/
+3. FAZER (VAI SAIR NO TESTE)
+4. 
+5. VIMOS NO ULTIMO LAB, ter em consideracao da probabilidade de perda de pacotes metida no core
