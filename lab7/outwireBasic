@@ -1,0 +1,7 @@
+No.     Time           Source                Destination           Protocol Length Info
+     15 33.001522000   198.18.0.20           198.18.1.10           ICMP     98     Echo (ping) request  id=0x001d, seq=1/256, ttl=64 (reply in 16)
+
+Frame 15: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:00:00_aa:00:00 (00:00:00:aa:00:00), Dst: 00:00:00_aa:00:01 (00:00:00:aa:00:01)
+Internet Protocol Version 4, Src: 198.18.0.20 (198.18.0.20), Dst: 198.18.1.10 (198.18.1.10)
+Internet Control Message Protocol
