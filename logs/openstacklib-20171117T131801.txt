@@ -1,0 +1,4 @@
+13:18:01.423 [Thread-0] DEBUG openstacklib.Abstrato - [abstractExists - projectExists] init
+13:18:01.651 [Thread-0] DEBUG openstacklib.Abstrato - [abstractExists - projectExists] project p-testesubnetsagi exists
+13:18:01.851 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:18:02.030 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a

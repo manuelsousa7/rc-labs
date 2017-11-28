@@ -1,0 +1,99 @@
+13:16:42.206 [main] DEBUG openstacklib.Abstrato - [abstractExists - projectExists] init
+13:16:42.452 [main] DEBUG openstacklib.Abstrato - [abstractExists - projectExists] project p-testesubnetsagi does not exists
+13:16:42.453 [main] DEBUG openstacklib.Abstrato - [abstractExists - projectExists] init
+13:16:42.645 [main] DEBUG openstacklib.Abstrato - [abstractExists - projectExists] project p-testesubnetsagi does not exists
+13:16:42.652 [Thread-0] DEBUG openstacklib.Abstrato - [abstractExists - projectExists] init
+13:16:42.827 [Thread-0] DEBUG openstacklib.Abstrato - [abstractExists - projectExists] project p-testesubnetsagi does not exists
+13:16:43.038 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:43.268 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
+13:16:45.056 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:45.213 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
+13:16:45.982 [Thread-0] DEBUG openstacklib.Abstrato - [abstractExists - networkExists] init
+13:16:46.056 [Thread-0] DEBUG openstacklib.Abstrato - [abstractExists - networkExists] network n-testesubnetsagi does not exists
+13:16:46.056 [Thread-0] DEBUG openstacklib.Network - [createNetwork] init
+13:16:46.057 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:46.203 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
+13:16:46.743 [Thread-0] DEBUG openstacklib.Network - [createNetwork] network n-testesubnetsagi created with dns testesubnetsagi.al.vps.tecnico.ulisboa.pt., segmentation ID 4028
+13:16:46.744 [Thread-0] DEBUG openstacklib.Abstrato - [abstractExists - subnetExists] init
+13:16:46.816 [Thread-0] DEBUG openstacklib.Abstrato - [abstractExists - subnetExists] subnet s4-testesubnetsagi does not exists
+13:16:46.817 [Thread-0] DEBUG openstacklib.Subnet - [createSubnet] init
+13:16:46.817 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:46.967 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
+13:16:46.969 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getNetworkID] init
+13:16:47.063 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getNetworkID] network n-testesubnetsagi exists with id efce1f6c-408b-437c-b6d3-aa617573f8b2
+13:16:47.517 [Thread-0] DEBUG openstacklib.Subnet - [createSubnet] subnet IPV4 s4-testesubnetsagi, project 5aa7a48b8fd648638b0a5490e10f386a, network efce1f6c-408b-437c-b6d3-aa617573f8b2, subnetpool cbe374f7-17b3-46ef-8df7-5d1a4277515d, created
+13:16:47.518 [Thread-0] DEBUG openstacklib.Abstrato - [abstractExists - subnetExists] init
+13:16:47.977 [Thread-0] DEBUG openstacklib.Abstrato - [abstractExists - subnetExists] subnet s6-testesubnetsagi does not exists
+13:16:47.978 [Thread-0] DEBUG openstacklib.Subnet - [createSubnet] init
+13:16:47.978 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:48.173 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
+13:16:48.174 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getNetworkID] init
+13:16:48.258 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getNetworkID] network n-testesubnetsagi exists with id efce1f6c-408b-437c-b6d3-aa617573f8b2
+13:16:49.152 [Thread-0] DEBUG openstacklib.Subnet - [createSubnet] subnet IPV6 s6-testesubnetsagi, project 5aa7a48b8fd648638b0a5490e10f386a, network efce1f6c-408b-437c-b6d3-aa617573f8b2, subnetpool 301fe9d6-2842-401b-ba93-ba661bdc8b27, created
+13:16:49.153 [Thread-0] DEBUG openstacklib.Abstrato - [abstractExists - routerExists] init
+13:16:49.216 [Thread-0] DEBUG openstacklib.Abstrato - [abstractExists - routerExists] router r-testesubnetsagi does not exists
+13:16:49.216 [Thread-0] DEBUG openstacklib.Router - [createRouter] init
+13:16:49.219 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:49.403 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
+13:16:50.904 [Thread-0] DEBUG openstacklib.Router - [createRouter] router r-testesubnetsagi from project p-testesubnetsagi(5aa7a48b8fd648638b0a5490e10f386a) created
+13:16:50.904 [Thread-0] DEBUG openstacklib.Router - [addRouterInterfaces] init
+13:16:50.905 [Thread-0] DEBUG openstacklib.Subnet - [getSubnetID] getSubnetID init
+13:16:50.907 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getSubnetID] init
+13:16:50.986 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getSubnetID] subnet s4-testesubnetsagi exists with id 9346f790-6efa-4254-939f-2a4db02b91a0
+13:16:50.990 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getRouterID] init
+13:16:51.065 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getRouterID] router r-testesubnetsagi exists with id a66af64f-7926-4f59-8a66-35330b6cdc07
+13:16:51.792 [Thread-0] DEBUG openstacklib.Router - [addRouterInterfaces] Subnet 9346f790-6efa-4254-939f-2a4db02b91a0 was added to router r-testesubnetsagi
+13:16:51.792 [Thread-0] DEBUG openstacklib.Router - [addRouterInterfaces] init
+13:16:51.792 [Thread-0] DEBUG openstacklib.Subnet - [getSubnetID] getSubnetID init
+13:16:51.793 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getSubnetID] init
+13:16:51.868 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getSubnetID] subnet s6-testesubnetsagi exists with id 7ba2573e-50b4-4446-9b9a-dbee13567f05
+13:16:51.869 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getRouterID] init
+13:16:51.947 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getRouterID] router r-testesubnetsagi exists with id a66af64f-7926-4f59-8a66-35330b6cdc07
+13:16:53.136 [Thread-0] DEBUG openstacklib.Router - [addRouterInterfaces] Subnet 7ba2573e-50b4-4446-9b9a-dbee13567f05 was added to router r-testesubnetsagi
+13:16:53.136 [Thread-0] DEBUG openstacklib.SecurityGroup - [createSecurityGroupRule] init
+13:16:53.136 [Thread-0] DEBUG openstacklib.SecurityGroup - [getSecurityGroupID]  init
+13:16:53.137 [Thread-0] DEBUG openstacklib.Abstrato - [getIDs - getSecurityGroupID] init
+13:16:53.138 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:53.322 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
+13:16:53.386 [Thread-0] DEBUG openstacklib.Abstrato - [getIDs - getSecurityGroupID] project p-testesubnetsagi have this security-groups List(ce3b4f41-3658-44ab-9a9b-a69ec0a4b77d)
+13:16:53.386 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:53.557 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
+13:16:53.696 [Thread-0] DEBUG openstacklib.SecurityGroup - [createSecurityGroupRule] Security Group Rule with securityGroupID ce3b4f41-3658-44ab-9a9b-a69ec0a4b77d,project p-testesubnetsagi(5aa7a48b8fd648638b0a5490e10f386a), EtherType IPv4, remote-ip-prefix 0.0.0.0/0,protocol icmp created successfully
+13:16:53.696 [Thread-0] DEBUG openstacklib.SecurityGroup - [createSecurityGroupRule] init
+13:16:53.696 [Thread-0] DEBUG openstacklib.SecurityGroup - [getSecurityGroupID]  init
+13:16:53.696 [Thread-0] DEBUG openstacklib.Abstrato - [getIDs - getSecurityGroupID] init
+13:16:53.696 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:53.888 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
+13:16:53.975 [Thread-0] DEBUG openstacklib.Abstrato - [getIDs - getSecurityGroupID] project p-testesubnetsagi have this security-groups List(ce3b4f41-3658-44ab-9a9b-a69ec0a4b77d)
+13:16:53.975 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:54.154 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
+13:16:54.304 [Thread-0] DEBUG openstacklib.SecurityGroup - [createSecurityGroupRule] Security Group Rule with securityGroupID ce3b4f41-3658-44ab-9a9b-a69ec0a4b77d,project p-testesubnetsagi(5aa7a48b8fd648638b0a5490e10f386a), EtherType IPv4, Port-Range-Min 22,Port-Range-Max 22, remote-ip-prefix 0.0.0.0/0,protocol tcp created successfully
+13:16:54.305 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:54.588 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
+13:16:54.636 [Thread-0] DEBUG openstacklib.Dns - [zoneExists] init
+13:16:55.320 [Thread-0] DEBUG openstacklib.Dns - [zoneExists] zone testesubnetsagi.al.vps.tecnico.ulisboa.pt. does not exists
+13:16:55.320 [Thread-0] DEBUG openstacklib.Dns - [createDNS] init
+13:16:55.322 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:55.488 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
+13:16:55.488 [Thread-0] DEBUG openstacklib.Dns - [createZone] init
+13:16:55.964 [Thread-0] DEBUG openstacklib.Dns - [createZone] zone testesubnetsagi.al.vps.tecnico.ulisboa.pt. created
+13:16:55.964 [Thread-0] ERROR openstacklib.Dns - [createDNS] zone testesubnetsagi.al.vps.tecnico.ulisboa.pt. created
+13:16:55.964 [Thread-0] DEBUG openstacklib.Dns - [getZoneID] init
+13:16:56.018 [Thread-0] DEBUG openstacklib.Dns - [getZoneID] zone a9b6cf51-5848-40ed-8dc0-86ea33fedb55 exists | dnsName testesubnetsagi.al.vps.tecnico.ulisboa.pt.
+13:16:56.018 [Thread-0] DEBUG openstacklib.Dns - [createZoneTransfer] init
+13:16:56.114 [Thread-0] DEBUG openstacklib.Dns - [createZoneTransfer] Zone Tranfer created - (861f0014-5cb8-460c-a42c-0b048a4102f4,4G1Y1FC0)
+13:16:56.123 [Thread-0] DEBUG openstacklib.Dns - [zoneTransferAccept] init
+13:16:56.226 [Thread-0] DEBUG openstacklib.Dns - [zoneTransferAccept] Zone with zone tranfer request id 861f0014-5cb8-460c-a42c-0b048a4102f4, with key 4G1Y1FC0 was accepted
+13:16:56.227 [Thread-0] DEBUG openstacklib.Dns - [createDNS] zone transfer accepted 861f0014-5cb8-460c-a42c-0b048a4102f4, key 4G1Y1FC0, project p-testesubnetsagi(5aa7a48b8fd648638b0a5490e10f386a)
+13:16:56.228 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:56.404 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
+13:16:56.549 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:56.714 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
+13:16:56.786 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:56.943 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
+13:16:56.995 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:57.155 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
+13:16:57.219 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:57.384 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
+13:16:57.438 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] init
+13:16:57.651 [Thread-0] DEBUG openstacklib.Abstrato - [getID - getProjectID] project p-testesubnetsagi exists with id 5aa7a48b8fd648638b0a5490e10f386a
